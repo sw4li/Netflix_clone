@@ -6,9 +6,11 @@ import {adventure,action,crime,scifi,fantacy,comedy} from './urls'
 import Banner from './components/Banner/Banner'
 import Rowpost from './components/Rowpost/Rowpost'
 
+
 function App() {
   return (
     <div className="App">
+     
     <Navbar/>
     <Banner/>
     <Rowpost url={adventure} title='Trending Now' />

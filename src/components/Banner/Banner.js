@@ -21,7 +21,7 @@ function Banner() {
     <div className='banner' style={{backgroundImage:`url(${movie? imageUrl+ movie.backdrop_path : ""})`}}>
       <div className="fade_top"></div>
       <div className='content'>
-         <h1 className='title'>{movie ?  movie.title : ""}</h1>
+         <h1 className='title'>{movie ? movie.name ? movie.name : movie.title : ""}</h1>
          <div className='banner_button'>
             <button className='button'>WATCH</button>
             <button className='button'>ADD LIST</button>
