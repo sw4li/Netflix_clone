@@ -6,3 +6,6 @@ export const crime = `discover/movie?api_key=${API_KEY}&language=en-US&sort_by=p
 export const scifi = `discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=878&with_watch_monetization_types=flatrate`
 export const fantacy = `discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=14&with_watch_monetization_types=flatrate`
 export const comedy = `discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=35&with_watch_monetization_types=flatrate`
+
+export const Tvpopular = `/tv/popular?api_key=${API_KEY}&language=en-US&page=1`
+export const Toprated = `/tv/top_rated?api_key=${API_KEY}&language=en-US`
